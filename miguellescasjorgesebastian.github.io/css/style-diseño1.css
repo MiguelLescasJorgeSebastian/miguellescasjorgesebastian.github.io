@@ -1,0 +1,78 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Montserrat', sans-serif;
+}
+  nav li{
+    display: inline-block;
+  }
+  header{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+  }
+  .logo{
+    width: 50%;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: black;
+    padding: 10px;
+    display: inline-block;
+    opacity: .7;
+    border-radius: 5px;
+  }
+  nav a:hover{
+    opacity: 1;
+  }
+  .principal img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .principal{
+    position: relative;
+  }
+  .contenido{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding-left: 10px;
+  }
+  .text{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    
+  }
+  .text h1{
+    color: white;
+    font-size:40px;
+    font-family: myFuente ,serif;
+  }
+  .text p{
+    margin: 30px 0;
+  }
+  .formulario{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+  }

@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contenedor-principal{
+    display: flex;
+    height: 100vh;
+}
+.lateral{
+    flex-grow: 1;
+    background-color: rgb(91, 91, 244);
+}
+.formulario{
+    width: 70%;
+    flex-grow: 2;
+}
+.titulo-form{
+    padding: 40px 40px;
+}
+.contenido-formulario{
+    padding: 30px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nombre{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.apellido{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.correo{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+}
+.id{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.pais{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.estado{
+    width: 15%;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.municipio{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.telefono{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+}
+.codigos{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.reiniciar{
+    width: 30%;
+    padding: 100px 0px;
+}
+.enviar{
+    display: flex;
+    justify-content: end;
+    width: 30%;
+    padding: 100px 40px;
+}
+.boton{
+    background-color: white;
+
+}
+.boton2{
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(61, 116, 237);
+   border-radius: 10px;
+}
+label{
+    padding: 20px 0;
+}
+input{
+    border: 0;
+    border-bottom: 1px solid black;
+    height: 30px;
+}

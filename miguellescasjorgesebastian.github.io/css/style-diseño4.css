@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.contenedor-header {
+	width: 100%;
+}
+.header-principal {
+	padding: 20px 0;
+}
+.header-titulo a {
+	text-decoration: none;
+	color: inherit;
+    margin-right: 140px ;
+    padding-right: 30px;
+    border-right: 1px solid rgb(0, 89, 255);
+}
+.headerPrincipal-nav-link {
+	padding: 10px;
+	margin-bottom: 10px;
+	color: black;
+
+	background-color: #FFF;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+
+	border-bottom: 1px solid #9799A6;
+}
+.header-principal .contenedor-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-nav{
+    display: flex;
+}
+.nav-main-link{
+    height: 40px;
+    padding: 30px 48px;
+    width: 110px;
+	color: white;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+    border-bottom:1px solid white ;
+}
+.contenedor-principal{
+    height: 100hv;
+    background-color: #9799A6;
+}
+.contenedor{
+    background-color: #FFF;
+}
+.contenedor .contenedor-principal{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(19, 66, 110);
+    height: 100vh; /* esto es deacuerdo a mi pantalla*/
+    border-bottom: 1px solid white;
+}
+.contenido-main{
+    display: flex;
+    margin: 0px 40px 40px 40px;
+    justify-content: space-between;
+    flex-grow: 2;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 90%;
+}
+.nav-principal{
+    display: flex;
+    height: 40px;
+    margin-bottom: 40px;
+}
+.opciones{
+    display: flex;
+}
+.nav-prin-link{
+    height: 10px;
+    padding: 20px;
+	color: black;
+	background-color: #9799A6;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+}
+.nav-option-link{
+    height: 10px;
+    padding: 20px;
+	color: black;
+	background-color: #9799A6;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+}
+.formulario-main{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    border-top: 1px solid black;
+    background-color: #FFF;
+}
+.enca-form{
+    display: flex;
+    width: 100%;
+}
+.form-nombre{
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+}
+.form-apellido{
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+}
+.fecha-inicio{
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+}
+.fecha-final{
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+}
+.menu2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 30px;
+    background-color: #FFF;
+}
+.fecha-rango{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 40px;
+}
+.dias{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.option-link{
+    height: 30px;
+    padding: 5px;
+	color: black;
+    font-weight: bold;
+	background-color: #FFF;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+}
+.fuente{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 20%;
+}
+.opciones2{
+    padding-bottom: 20px;
+}
+.boton{
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    width: 10%;
+}
+.boton-buscar{
+    padding: 5px 20px;
+    border-radius: 8px;
+    background-color: rgb(0, 115, 255);
+    color: white;
+}
+.contenedor-tabla{
+    display: flex;
+    width: 100%;
+    height: 180px;
+    padding: 30px;
+    justify-content: center;
+    background-color: #FFF;
+}
+.tabla {
+    border: 1px solid black;
+}
+th,td{
+    padding: 10px 40px;
+    border: 1px solid black;
+}
+.nav-main-link:hover{
+    background-color: rgb(114, 163, 224);
+    transition: .5s;
+    font-size: 18px;
+}
+.headerPrincipal-nav-link:hover{
+    color: rgb(34, 85, 238);
+    transition: .5s;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav-prin-link:hover{
+    font-weight: bold;
+    transition: .5s;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(34, 85, 238);
+}
+.nav-option-link:hover{
+    color: rgb(34, 85, 238);
+    transition: .5s;
+    font-size: 18px;
+    font-weight: bold;
+}
+.img1{
+    width: 20px;
+}
+.img2{
+    width: 40px;
+}
+.option-link:hover{
+    transition: .3s;
+    color: rgb(34, 85, 238);
+    border: 2px solid rgb(34, 85, 238);
+    border-radius: 15px;
+}
