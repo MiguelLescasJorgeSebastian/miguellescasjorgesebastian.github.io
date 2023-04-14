@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Squites</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="contenedor">
+      
+      <div class="formulario">
+        <h1>Formulario</h1>
+        <form action="Prueba1" method="post">
+          <label for="nom_cliente">Nombre Cliente</label>
+          <input type="text" name="nom_cliente" id="nom_cliente" required minlength="8" maxlength="12" placeholder="Ingresa tu Nombre">
+          <br>
+          <label for="psw">Pin Cliente</label>
+          <input type="password" name="psw" id="psw" maxlength="4" minlength="4" required pattern="[0-9]{4}" placeholder="Ingresa tu pin">
+          <br>
+          <label for="tamaño">Tamaño de vaso</label>
+          <input type="number" name="tamaño" id="tamaño" min="10" max="15" step="1" required>
+          <br>
+          <label for="tipos-chile">Tipo de Chile</label>
+          <select name="tipos-chile" id="tipos-chile" required>
+            <option value="del-que-pica">Del que pica</option>
+            <option value="del-que-no-pica">Del que no pica</option>
+            <option value="de-arbol">De arbol</option>
+            <option value="de-chapulin">De chapulin</option>
+          </select>
+          <br>
+          <label for="cantidad-chile"> Cantidad de chile</label>
+          <input type="range" name="cantidad-chile" id="cantidad-chile" min="10" max="15" step="1" required>
+          <br>
+          <label for="opcion">Con limon</label>
+          <input type="radio" name="opcion" id="opcion1" value="si" required>
+          <label for="opcion1">Si</label>
+          <input type="radio" name="opcion" id="opcion2" value="no" required>
+          <label for="opcion2">No</label>
+          <br>
+          <label for="ingredientes">Ingrediente Extra</label>
+          <input type="checkbox" name="ingredientes1" id="ingredientes1" value="Bufalo" >
+          <label for="ingredientes1">Bufalo</label>
+          <input type="checkbox" name="ingredientes2" id="ingredientes2" value="Valentina" >
+          <label for="ingredientes2">Valentina</label>
+          <input type="checkbox" name="ingredientes3" id="ingredientes3" value="Tajin" >
+          <label for="ingredientes3">Tajin</label>
+          <br>
+          <label for="comentario">Comentario</label>
+          <textarea name="comentario" id="comentario" cols="30" rows="1" required>Text area</textarea>
+          <br>
+          <input type="submit" value="Pedir">
+          <br>
+          <input type="reset" value="Cancelar orden" class="rese">
+          <br>
+          <input type="color">
+          <br>
+          <input type="email">
+          <br>
+          <input type="date">
+          <br>
+          <input type="time">
+          <br>
+          <input type="file">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
